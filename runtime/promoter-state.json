@@ -1,0 +1,11 @@
+{
+  "status": "idle",
+  "last_seen": "$TS",
+  "pid": "$PID",
+  "ready_count": 5,
+  "top_ready": [
+    "把 scaffold-from-config 从配置快照模板升级为可执行的基础登录/打开页模板",
+    "为 fzyc 新生成/重构后的测试脚本重新验收学习端上传功能",
+    "增加 README.md，面向 GitHub 使用者说明安装/初始化/执行流程"
+  ]
+}

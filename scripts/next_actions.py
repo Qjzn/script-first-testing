@@ -40,7 +40,8 @@ def main():
     print(json.dumps({
         'catalog': stats,
         'next_actions': items,
-        'recommended_acceptance': 'python3 /home/mifu/openclaw-data/tests/run_test.py --project fzyc --module learning --page home --keyword upload'
+        'recommended_acceptance': 'python3 /home/mifu/openclaw-data/tests/run_test.py --project fzyc --module learning --page home --keyword upload',
+        'promoter_policy': '持续推进 script-first-testing 技能；若 15 分钟无心跳，看门狗自动唤醒；cron 每 10 分钟轮询一次'
     }, ensure_ascii=False, indent=2))
 
 
