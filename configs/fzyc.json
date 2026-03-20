@@ -1,0 +1,28 @@
+{
+  "project": "fzyc",
+  "env": "prod",
+  "baseUrl": "https://mlxt.fztobacco.com:9205",
+  "routeMode": "hash",
+  "login": {
+    "required": true,
+    "url": "https://mlxt.fztobacco.com:9205/learning",
+    "username": "15212120027",
+    "password": "a1111111",
+    "usernameSelector": "input[placeholder*='账号'], input[placeholder*='用户'], input[type='text']:visible",
+    "passwordSelector": "input[placeholder*='密码'], input[type='password']:visible",
+    "submitSelector": ".buttonBox:has-text('登录'), button:has-text('登录'), .el-button:has-text('登录'), button[type='submit']",
+    "skipPasswordChangeSelector": "button:has-text('暂不修改'), .cancel-btn, .el-button:has-text('暂不修改')",
+    "manageEntrySelector": ".manage-box"
+  },
+  "selectors": {
+    "upload": "input[type='file']",
+    "defaultCoverButton": "button:has-text('选择默认封面'), button:has-text('默认封面'), .el-button:has-text('选择默认封面'), .el-button:has-text('默认封面')",
+    "dialogImages": ".el-dialog img,.el-dialog__wrapper img,[role=dialog] img",
+    "createCourseButton": "button:has-text('创建课程'), .el-button:has-text('创建课程')"
+  },
+  "routes": {
+    "learningHome": "/learning",
+    "courseAdd": "/course/add",
+    "courseManage": "/dashboard/course-manage"
+  }
+}

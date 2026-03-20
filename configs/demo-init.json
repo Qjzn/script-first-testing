@@ -1,0 +1,23 @@
+{
+  "project": "demo-init",
+  "env": "test",
+  "baseUrl": "https://example.com",
+  "routeMode": "hash",
+  "login": {
+    "required": true,
+    "url": "https://example.com/login",
+    "usernameSelector": "input[name='username']",
+    "passwordSelector": "input[type='password']",
+    "submitSelector": "button[type='submit']"
+  },
+  "selectors": {
+    "upload": "input[type='file']",
+    "defaultCoverButton": "button:has-text('选择默认封面')",
+    "dialog": ".el-dialog"
+  },
+  "routes": {
+    "home": "/",
+    "courseAdd": "/course/add",
+    "courseManage": "/dashboard/course-manage"
+  }
+}
